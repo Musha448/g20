@@ -1,0 +1,615 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none!important;
+    padding: 0px;
+    font-family: Georgia, serif;
+    
+}
+.mainn{
+    
+    width: 100%;
+}
+.main-top{
+    background-color: rgb(221, 184, 135)!important;
+
+   
+}
+
+
+.main-top h5 a{
+    color: white;
+    font-size: 17px;
+
+}
+header .header-top
+{
+    
+    padding: 18px 0px;
+    display: flex;
+    justify-content: space-around;
+    
+    width: 100%!important;
+    
+    color: black;
+    align-items: center;
+    font-size: 17px;
+}
+header .header-top a{
+    color: black;
+    
+}
+header .header-top .gmail{
+    
+    
+    font-size: 20px;
+}
+header .header-top .gmail span{
+    
+    font-size: 14.6px;
+}
+
+header .header-top .logo{
+    font-size: 40px;
+    
+
+
+    margin: 0px!important;
+    padding: 0px!important;
+    
+    
+}
+header .header-top .icon{
+    color: black;
+    font-size: 17px;
+    
+    margin-top: 20px;
+}
+header .header-top .icon ul a{
+    padding: 0px 8px;
+    font-size: 23px;
+
+}
+header .header-bottom{
+    padding: 10px 0px;
+}
+header .header-bottom nav{
+    
+    text-align: center!important;
+    
+}
+
+header .header-bottom nav ul li{
+    display: inline-block;
+    
+    
+    margin: 0px auto;
+    
+    
+}
+header .header-bottom nav ul li::after{
+  width: 0%;
+  text-align: center;
+  display: block;
+  background-color: black;
+  height: 2px;
+  transition: 0.4s ease-in-out;
+  content: "";
+    
+    
+}
+header .header-bottom nav ul li:hover::after{
+    width: 100%;
+}
+
+
+
+header .header-bottom nav ul li a{
+    
+    padding: 0px 21px;  
+    font-size: 16px;
+    color: black;
+}
+.body-section{
+    
+}
+
+
+.body-top{
+    
+}
+.body-top ul li{
+display: inline-block;
+}
+.body-top ul li a{
+    font-size: 13.5px;
+    color: black;
+}
+
+.body-bottom{
+    
+    
+    padding: 14px 40px;
+    
+}
+.body-bottom h5{
+    
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 9px;
+}
+    
+    .body-bottom p{
+        font-size: 15.5px;
+    }
+
+.body-bottom a p{
+    color: black;
+    font-size: 15px;
+    text-decoration: underline!important;
+}
+hr{
+    width: 100%!important;
+}
+.contact {
+padding: 30px 0px;
+}
+.contact h5{
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact form{
+    
+    display: flex;
+    border: 1px solid black;
+    padding: 10px 10px;
+    margin-top: 20px;
+    width: 100%!important;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items:center;
+}
+.contact .fa-envelope{
+    font-size: 25px;
+    margin-left: 5px;
+    font-weight: lighter;
+}
+.contact form button{
+    font-size: 15px;
+    
+}
+.gmail input[type=text]{
+    width:70%;
+    border:none;
+    
+
+    outline: none;
+}
+.gmail input[type=text]:focus{
+   
+    box-shadow: none;
+}
+::placeholder{
+    font-size: 15px;
+}
+ .contact-right{
+    
+ }
+ .contact-right .list-group .list-group-item{
+    background: none;
+    border: none;
+    line-height: 15px;
+    
+
+ }
+ .contact-right .list-group .list-group-item:hover{
+    text-decoration:underline!important;
+     
+ }
+
+
+ .contact-right .list-group .list-group-item .list-group-link{
+    color: black;
+    font-size: 14px;
+    
+    
+ }
+
+ .contact-right .list-group .active{
+    font-weight: bold;
+    padding-bottom: 15px;
+    text-decoration: none!important;
+    
+
+    
+ }
+ .fa-bars{
+    
+    color: black;
+    font-size: 35px;
+    display: none!important;
+    cursor: pointer;
+ }
+ #check
+ {
+    display: none;
+ }
+ 
+.fa-xmark{
+    color: black;
+    font-size: 32px;
+    cursor: pointer;
+    display: none!important;
+    position: absolute;
+    right: 30px;
+    top: 15px;
+}
+
+
+.search{
+    
+   display: flex;
+   width: 100%!important;
+ 
+   display: none;
+   margin-bottom: 20px;
+}
+.hola{
+    width: 80%!important;
+    display: flex;
+
+    
+    margin: auto;
+}
+.search input[type=text]{
+    width:100%!important;
+  border-radius: 3px 0px 0px 3px;
+  outline: none;
+  border: 1px solid rgb(164, 154, 154);
+
+}
+.search input[type=text]:focus{
+    border: 1px solid rgb(164, 154, 154);
+ box-shadow: none;
+}
+
+ @media(min-width: 969px) and (max-width: 2000px){
+
+    header .header-top .logo{
+        font-size: 40px;
+        
+    
+    margin-right: 110px!important;
+        
+        
+    }
+ }
+ 
+ 
+ 
+
+ @media (max-width: 968px){
+
+    .fa-bars{
+        display: block!important;
+        padding-left: 20px;
+        
+    }
+    .main-top{
+        padding: 0px!important;
+        margin: 0px!important;
+    }
+  
+    .main-top h5 a{
+     
+        font-size: 13px!important;
+       
+        
+    }
+
+    header .header-top
+    {
+        
+        padding: 12px 0px;
+        
+      
+    }
+
+    header .header-top .gmail{
+    
+        display: none;
+    }
+    
+    .header-bottom nav{
+    margin: 0px!important;
+    padding: 0px!important;
+    
+    }
+
+    .header-bottom nav ul{
+        /* background-color: rgb(191, 138, 138); */
+        width: 100%;
+        height:100vh;
+        position:fixed;
+        z-index: 1000;
+        margin: 0px;
+        padding: 0px;
+        top: 56px;
+        transition: 0.6s ease-in-out;
+        left: -954px;
+        background-color: rgb(221, 184, 135)!important;
+
+    }
+
+    .header-bottom nav ul li{
+        
+        display: block!important;
+        line-height: 65px;
+    }
+    .fa-xmark{
+    display: block!important;
+  }
+
+
+
+    header .header-top .logo{
+        margin-left: 80px!important;
+        /* background-color:; */
+        
+    }
+    header .header-top{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+ }
+ @media (max-width: 1090px){
+    .contact form{
+    
+        display: flex;
+        border: 1px solid black;
+        padding: 10px 10px;
+        margin-top: 20px;
+        width: 100%!important;
+        border-radius: 5px;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .contact .fa-envelope{
+        font-size: 20px;
+        margin-left: 5px;
+
+        font-weight: lighter;
+    }
+    .contact form button{
+        font-size: 13px;
+        
+    }
+    ::placeholder{
+        font-size: 13px;
+    }
+    input[type=text]{
+        width:80%;
+        border:none;
+        outline: none;
+    }
+    input[type=text]:focus{
+        border: none;
+    }
+
+ }
+
+ @media(max-width: 768px){
+    .contact-right .list-group .active{
+        
+        margin-top: 20px;
+        
+        
+    
+        
+     }
+ }
+
+ @media(min-width: 768px) and (max-width: 903px){
+    .contact form{
+    
+        display: flex;
+        border: 1px solid black;
+        padding: 10px 10px;
+        margin-top: 20px;
+        width: 100%!important;
+        border-radius: 5px;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .contact .fa-envelope{
+        font-size: 19px;
+        margin-left: 5px;
+        font-weight: lighter;
+    }
+    .contact form button{
+        font-size: 12px;
+        
+    }
+    ::placeholder{
+        font-size: 12px;
+    }
+    input[type=text]{
+        width:70%;
+        border:none;
+        outline: none;
+    }
+    input[type=text]:focus{
+        border: none;
+    }
+ }
+ @media (max-width: 638px){
+    .main-top h5 a{
+        color: white;
+        font-size: 14px;
+    
+    }
+    .fa-bars {
+        font-size: 26px;
+    }
+    header .header-top .logo{
+        font-size: 25px;
+        
+    }
+
+
+
+    header .header-top .icon{
+        color: black;
+        
+        
+        
+    }
+    header .header-top .icon ul a{
+        padding: 0px 8px;
+        font-size: 20px;
+    
+    }
+
+    .contact form{
+    
+        display: flex;
+        border: 1px solid black;
+        padding: 10px 10px;
+        margin-top: 20px;
+        width: 80%;
+        border-radius: 5px;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .contact .fa-envelope{
+        font-size: 25px;
+        margin-left: 5px;
+        font-weight: lighter;
+    }
+    .contact form button{
+        font-size: 15px;
+        
+    }
+    input[type=text]{
+        width:70%;
+        border:none;
+        outline: none;
+    }
+    input[type=text]:focus{
+        border: none;
+    }
+ }
+
+ @media (max-width: 517px){
+    .contact form{
+    
+        display: flex;
+        border: 1px solid black;
+        padding: 10px 10px;
+        margin-top: 20px;
+        width: 100%!important;
+        border-radius: 5px;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .contact .fa-envelope{
+        font-size: 18px;
+        margin-left: 5px;
+        font-weight: lighter;
+    }
+    .contact form button{
+        font-size: 12px;
+        padding: 4px 8px;
+        
+    }
+    ::placeholder{
+        font-size: 12px;
+    }
+    input[type=text]{
+        width:60%;
+        border:none;
+        outline: none;
+    }
+    input[type=text]:focus{
+        border: none;
+    }
+
+ }
+
+ @media (max-width: 348px){
+    .contact form{
+    
+        display: flex;
+        border: 1px solid black;
+        padding: 10px 10px;
+        margin-top: 20px;
+        width: 100%!important;
+        border-radius: 5px;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .contact .fa-envelope{
+        font-size: 17px;
+        margin-left: 5px;
+        font-weight: lighter;
+    }
+    .contact form button{
+        font-size: 11px;
+        padding: 4px 8px;
+        
+    }
+    ::placeholder{
+        font-size: 11px;
+    }
+    input[type=text]{
+        width:50%;
+        border:none;
+        outline: none;
+    }
+    input[type=text]:focus{
+        border: none;
+    }
+
+ }
+ @media(max-width: 1198px){
+    .contact-right{
+        
+        margin-top: 25px;
+    }
+ }
+
+
+
+ @media(max-width: 456px){
+    .main-top h5 a{
+        color: white;
+        font-size: 12px;
+    
+    }
+    header .header-top .logo{
+        font-size: 20px;
+        margin-left: 70px;
+    }
+
+
+
+    header .header-top .icon{
+        color: black;
+        
+        
+        
+    }
+    header .header-top .icon ul a{
+        padding: 0px 8px;
+        font-size: 15px;
+    
+    }
+
+    .fa-bars{
+        
+        font-size: 25px;
+    }
+ }
