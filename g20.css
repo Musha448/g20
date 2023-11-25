@@ -504,6 +504,13 @@ padding: 30px 0px;
  }
 
  @media (max-width: 517px){
+
+    .main-top h5 a{
+     
+        font-size: 10px!important;
+       
+        
+    }
     .contact form{
     
         display: flex;
@@ -521,7 +528,7 @@ padding: 30px 0px;
         font-weight: lighter;
     }
     .contact form button{
-        font-size: 12px;
+        font-size: 9px;
         padding: 4px 8px;
         
     }
@@ -557,7 +564,7 @@ padding: 30px 0px;
         font-weight: lighter;
     }
     .contact form button{
-        font-size: 11px;
+        font-size: 5px!important;
         padding: 4px 8px;
         
     }
