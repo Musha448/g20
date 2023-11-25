@@ -284,13 +284,151 @@
         }
 
 
-        @media(max-width: 768px){
+        @media(max-width: 765px){
+
+            .main{
+            width: 100%;
+            height: 100vh;
+       background: url(1.png);
+       background-position: center;
+       background-size:cover ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .main .login{
+          border-radius: 5px;
+            width: 70%;
+            background-color: rgb(221, 184, 135)!important;
+            padding: 20px 15px;
+            position: relative;
+        }
+
+        .main .login .header{
+         
+         width: 100%!important;
+         
+         
+     }
+     .main .login .header .main-header{
+         
+         
+         padding: 5px 0px;
+         
+         
+        
+     }
+     .logg{
+        margin-bottom: 10px;
+        
+        
+     }
+   
+     .main .login .header .main-header .log::after{
+         content:"";
+         position:relative;
+         width: 100%;
+        display: block;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        transition: 0.4s ease-in-out;
+        bottom: 0px;
+      background-color: black;
+         height: 2px;
+         
+     }
+
+     .main .login .header .main-header a{
+         color: black;
+         font-weight: 500;
+         
+         font-size: 14px;
+      
+         
+     }
+
+     .main .login .header .main-header a::after{
+         content:"";
+         position:relative;
+         width: 0%;
+        display: block;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        transition: 0.4s ease-in-out;
+        bottom: 0px;
+        background-color: black;
+         height: 2px;
+         
+     }
+
+     .main .login .header .main-header a:hover:after{
+         width: 100%;
+     }
+     .fa-user{
+         font-size: 20px;
+         color: black;
+         margin: 13px 0px;
+         padding: 16px 18px;
+         background-color: rgb(216, 211, 211);
+         border-radius: 50%;
+     }
+     h3{
+         font-size: 18px;
+         font-weight: bold;
+     }
+     input[type='text']{
+         border: 0px;
+         outline: none;
+         width: 100%!important;
+         margin: 20px 0px;
+     }
+     input[type='text']:focus{
+         box-shadow: none;
+     }
+
+     input[type='password']:focus{
+         box-shadow: none;
+     }
+    
+
+            .footer{
+        
+            
+        position: relative;
+     
+    }
+    .remind{
+        padding: 0px!important;
+        margin: 0px!important;
+        
+        
+    }
+    .remind p{
+        font-size: 14px;
+        margin-top: 19px;
+        
+        font-size: 12px;
+    }
+    .footer  a{
+       margin: 0px!important;
+       padding: 0px!important;
+       position: absolute;
+       
+       left: 16px;
+       font-size: 12px;
+       
+       
+    }
 
             .forget{
            
             position: relative;
             top: 0px;
             left: 1px;
+            
             right: 1px;
             
         }
@@ -306,9 +444,19 @@
    
             cursor: pointer;
            background: none;
-            font-size: 30px;
+            font-size: 20px;
             
         }
+        .btn{
+           
+            margin-top: 15px;
+           position: relative;
+           top: 20px;
+           bottom: 0px;
+           right: 0px;
+           font-size: 11px;
+           left: 0px;
+       }
         
 
     </style>
@@ -318,7 +466,7 @@
     
     <div class="main">
         <a href="index.html" id="first"></a>
-        <div class="login text-center">
+        <div class="login text-center shadow">
             <div class="cross">
                 <i class="fa-solid fa-circle-xmark" id="mark"></i>
             </div>
@@ -327,7 +475,7 @@
 
                 <div class="main-header">
                     <div class="row">
-                        <div class="col-xl-6 col-md-6">
+                        <div class="col-xl-6 col-md-6 logg">
                             <a href="#" class="log">Log In</a>
                         </div>
                         <div class="col-xl-6 col-md-6">
@@ -372,8 +520,8 @@
                     </div>
                 </div>
 
-                <div class="col-xl-6 col-md-6">
-                    <a href="#" class="forget">Forget Password</a>
+                <div class="col-xl-6 col-md-6 forget">
+                    <a href="#" class="">Forget Password</a>
 
                 </div>
                </div>
